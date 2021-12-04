@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.app {
+  height: 100%;
+  position: relative; }
+
+.top-nav {
+  width: 100vw;
+  height: 75px;
+  position: relative; }
+  .top-nav .k-logo {
+    background-image: url(../images/keurig-logo.svg);
+    width: 175px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 35px;
+    left: 40px; }
+  .top-nav .srch-bar {
+    position: absolute;
+    top: 30px;
+    left: 365px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #e6e5e5;
+    border: 1px #ccc9c9 solid; }
+    .top-nav .srch-bar span {
+      background-image: url(../images/srch-logo.png);
+      width: 25px;
+      height: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 7px;
+      left: 17px; }
+    .top-nav .srch-bar p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      position: absolute;
+      top: 12px;
+      left: 50px; }
+  .top-nav .ship-tag {
+    width: 180px;
+    position: absolute;
+    top: 47px;
+    right: 143px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .top-nav .login {
+    background-image: url(../images/profile-Icon.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 38px;
+    right: 93px; }
+
+nav {
+  margin-top: 10px;
+  width: 85%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px; }
+  nav span {
+    background-image: url(../images/deal-icon.svg);
+    width: 10px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #9c1a1a; }
+  nav .deals {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    nav .deals span {
+      background-image: url(../images/deal-icon.svg);
+      width: 10px;
+      height: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #9c1a1a; }
+    nav .deals a {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #9c1a1a;
+      font-size: 14px; }
+
+footer {
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  footer .support-bar {
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    background-color: black; }
+  footer .foot-container {
+    position: absolute;
+    top: 50px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto); }
+    footer .foot-container .foot-section {
+      height: 350px;
+      width: 300px;
+      padding: 20px; }
+      footer .foot-container .foot-section h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter; }
+      footer .foot-container .foot-section p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px; }
+      footer .foot-container .foot-section .email {
+        margin-top: 20px;
+        width: 170px;
+        height: 40px;
+        border: 2px solid #949393; }
+        footer .foot-container .foot-section .email .submit {
+          width: 80px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          font-family: Arial, Helvetica, sans-serif;
+          border: 2px solid #eec71c;
+          position: relative;
+          right: -166px;
+          top: -2px; }
+  footer .footbar {
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    border-top: 1px solid #949393;
+    top: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .footbar p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #949393;
+      margin-left: 20px; }
+
+.home {
+  width: 100vw;
+  height: 1920px;
+  position: relative; }
+  .home .hero {
+    background-image: url(../images/hero-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 140px; }
+    .home .hero h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      position: absolute;
+      top: 50px;
+      left: 425px;
+      font-size: 18px; }
+    .home .hero p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      position: absolute;
+      top: 90px;
+      left: 325px;
+      font-size: 50px;
+      font-weight: lighter;
+      width: 550px;
+      letter-spacing: 5px; }
+  .home .categories {
+    width: 55%;
+    position: absolute;
+    top: 230px;
+    left: 140px;
+    display: flex;
+    justify-content: space-between; }
+    .home .categories .cat {
+      width: 120px;
+      height: 35px;
+      border: 3px #949393 solid;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+      .home .categories .cat p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #949393;
+        padding-top: 18px; }
+      .home .categories .cat span {
+        background-image: url(../images/down-Arrow.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #949393;
+        width: 15px;
+        height: 10px; }
+  .home .container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+    position: absolute;
+    top: 720px; }
+    .home .container .maker {
+      height: 500px;
+      width: 300px;
+      margin-bottom: 15px;
+      margin-left: 15px;
+      box-shadow: 2px 2px 23px #b9b9b9; }
